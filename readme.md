@@ -7,7 +7,7 @@ I have completed this Assignment using Python and for API requests I used reques
 
 I went through the API documentation and I figured out the API urls to which I will use in my assignment. In order to use the API I have to generate the Authorization Keys, Going further I came to know it need a hash key which is the combination of public and private key and the current timestamp using md5 algorithm. In my project there are four sub folders are as follow:
 
-##### `Config:` It has the two files one is the base.conf file and the other is stage.conf file. Base config will have the configuration which will have the configuration data that will remain same across all users and environment. For example the API urls and some other data. Where as stage.conf is user specific or environment specific.
+`Config:` It has the two files one is the base.conf file and the other is stage.conf file. Base config will have the configuration which will have the configuration data that will remain same across all users and environment. For example the API urls and some other data. Where as stage.conf is user specific or environment specific.
 
 
 `Lib:` It has all the functions which we can reuse in our testcases. Some of the functions are as follow.
