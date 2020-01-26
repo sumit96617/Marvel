@@ -13,14 +13,14 @@ class TestMarvelApi(unittest.TestCase):
         self.marvel_fun_object = MarvelFunction()
 
     @attr(type='smoke')
-    def test_get_CharacterId_With_Description(self):
+    def test_get_character_id_With_Description_and_series(self):
         """Test to get characters which has description and the list of Series those characters involved"""
 
         list_character_id = self.marvel_fun_object.get_character_id_with_description()
         list_series = self.marvel_fun_object.get_series_with_character_id(list_character_id)
         print(list_series)
 
-    @attr(type='smoke1')
+    @attr(type='smoke')
     def test_get_list_of_characters_with_description_in_two_series(self):
         """Test to get characters which has description from the random two series from series list"""
 
